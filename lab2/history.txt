@@ -1,0 +1,232 @@
+    1  ip addr
+    2  man yum
+    3  sudo yum -y install openssh-server openssh-clients
+    4  ip addr
+    5  sudo systemctl status sshd
+    6  ip addr
+    7  systemctl status sshd
+    8  ip addr
+    9  passwd nursultan
+   10  sudo passwd root
+   11  passwd nursultan
+   12  su
+   13  ls
+   14  whoami
+   15  whoaim
+   16  whoami
+   17  echo "Hello World"
+   18  date
+   19  cal
+   20  man cal
+   21  cal -3
+   22  history
+   23  man histort
+   24  man history
+   25  clear
+   26  ls
+   27  pwd
+   28  cd ..
+   29  pwd
+   30  cd /
+   31  pwd
+   32  cd ..
+   33  pwd
+   34  ls
+   35  ls /var
+   36  cd ~
+   37  cd ..
+   38  ls
+   39  cd
+   40  man ls
+   41  ls -l
+   42  mkdir fruits
+   43  cd /
+   44  mkdir ~/animals
+   45  touch /tmp/temp
+   46  man touch
+   47  cd fruits
+   48  cd ~/fruits
+   49  touch apple
+   50  touch banana
+   51  touch pineaple
+   52  touch lion
+   53  touc ~/animals/cat.txt
+   54  touch ~/animals/cat.txt
+   55  touch ~/animals/dog.txt
+   56  touch ~/animals/elephant.txt
+   57  ls -l apple
+   58  ls b*
+   59  ls *a
+   60  ls
+   61  ls [bi]*
+   62  ls b* i*
+   63  ls [bi]*
+   64  ls [b i]*
+   65  ls [bi]*
+   66  cp /etc/passwd ~
+   67  man cp
+   68  man scp
+   69  cat /etc/issue
+   70  man cp
+   71  cp /etc/passwd apple
+   72  cat apple
+   73  cp /etc/issue apple
+   74  cat apple
+   75  man cp
+   76  man mv
+   77  mv lion ~/animals
+   78  ls ~/animals
+   79  man mv
+   80  ls
+   81  mv pineaple pineapple
+   82  man wc
+   83  wc -l /etc/passwd
+   84  man ln
+   85  cd 
+   86  ln -s /etc/passwd passwd_link
+   87  ln .bash_history history_hard
+   88  ls -l .bash_history
+   89  ls
+   90  ls -l Видео
+   91  ls -l history_hard
+   92  ls -l fruits
+   93  ls -l Загрузки
+   94  ls -l ЭЗагрузки"
+   95  ls -l "Загрузки"
+   96  ls -l passwd_link
+   97  cat history_hard
+   98  cat passwd_link
+   99  man rm
+  100  rm /fruits/apple
+  101  rm fruits/apple
+  102  ls fruits
+  103  mkdir rmme
+  104  ls
+  105  man rmdir
+  106  rmdir rmme
+  107  ls
+  108  rmdir fruits
+  109  man rmdir
+  110  rm -fr fruits
+  111  ls
+  112  man cat
+  113  cat /etc/passwd /var/log/boot.log
+  114  cp /etc/init.d/ ~
+  115  man cp
+  116  cp -r /etc/init.d/ ~
+  117  rm -fr /etc/init.d
+  118  rm -fr etc/init.d
+  119  ls
+  120  man cut
+  121  cat /etc/passwd
+  122  cut -d: -f1 /etc/passwd
+  123  man sort
+  124  cut -d: -f1 /etc/passwd | sort -n
+  125  man column
+  126  man less
+  127  less
+  128  less /etc/passwd
+  129  cut -d: -f1,3,4 /etc/passwd
+  130  man column
+  131  cut -d: -f1,3,4 /etc/passwd | column -ts:
+  132  man cut
+  133  ct /etc/passwd
+  134  cat /etc/passwd
+  135  cut -d: -f1,3,4 /etc/passwd | column -ts:
+  136  cut -d: -f1,3,4 /etc/passwd | column -ts: | less
+  137  cat /etc/passwd
+  138  cut -d: -f1,3 /etc/passwd | column -ts:
+  139  man grep
+  140  man wc
+  141  cat /etc/passwd
+  142  grep :/bin/bash /etc/passwd | wc -l
+  143  man cut
+  144  grep :/bin/bash /etc/passwd | cut -d: -f1 | sort -n
+  145  man rpm
+  146  rpm -qa
+  147  man rpm
+  148  man sortsudo yum y install openssh-server openssh-clients
+  149  rpm -qa --qf '%{NAME}: %{SIZE}\n'
+  150  man sort
+  151  man cat
+  152  man tr
+  153  man uniq
+  154  man head
+  155  rpm -qa --qf '%{NAME}: %{SIZE}\n'|sort -rn -k2,2 | head -n25
+  156  rpm -qa --qf '%{NAME}: %{SIZE}\n'|sort -rn -k2,2 | head -n25 | wc -l
+  157  man wc
+  158  man rpm
+  159  rpm -ql man-db
+  160  rpm -ql man-d
+  161  rpm -ql man-db
+  162  man xargs
+  163  man du
+  164  rpm -ql man-db | xargs -l du 2> /dev/null | sort -n
+  165  du /var/cache/man
+  166  man top
+  167  top -b -n1 | sort
+  168  man sort
+  169  top -b -n1 | sort -d
+  170  man sort
+  171  top -b -n1 | sort -k
+  172  top -b -n1 | sort -k2,2
+  173  man tail
+  174  top -b -n1
+  175  top -b -n1 | tail -n+8
+  176  man cut
+  177  top -b -n1 | tail -n+8 | cut -c7-
+  178  /var/cache/manman cut
+  179  man cut
+  180  man tr
+  181  man cut
+  182  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f11,5
+  183  man cut
+  184  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t'
+  185  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f11,5
+  186  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f11,5 | less
+  187  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | less
+  188  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f5,11 | less
+  189  man column
+  190  man fold
+  191  man tail
+  192  man top
+  193  man cut
+  194  man cat
+  195  man top
+  196  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | 
+  197  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' 
+  198  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f5,11
+  199  man fold
+  200  man sort
+  201  man top
+  202  top -b -n1
+  203  top -b -n1 f
+  204  top -b -n1 -f
+  205  top -b -n1 f
+  206  top -b
+  207  top -b -n1 F
+  208  man top
+  209  top -b -n1 
+  210  top -b  
+  211  man top
+  212  top -b -n1 SWAP
+  213  top
+  214  top -b  
+  215  man top
+  216  top -b  -u
+  217  top -b -u
+  218  top -b
+  219  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f5,11 | sort -nk1
+  220  su
+  221  trevor47
+  222  su
+  223  cat file
+  224  cd test
+  225  cat file
+  226  su
+  227  cat file
+  228  ls -lR
+  229  history
+  230  ls -lR > lab2_1.txt
+  231  cat lab2_1.txt
+  232  history > history.txt

@@ -1,0 +1,11 @@
+.:
+итого 4
+drw-rw-rw-. 2 nursultan nursultan 22 окт 23 01:02 dir
+----r-----. 1 root      nursultan  5 окт 23 01:00 file
+-rw-------. 1 nursultan nursultan  0 окт 23 01:13 file1
+-rw-rw-rw-. 1 nursultan nursultan  0 окт 23 01:14 file2
+-rw-rw-r--. 1 nursultan nursultan  0 окт 23 01:18 lab2_1.txt
+
+./dir:
+итого 0
+-????????? ? ? ? ?            ? new_file
