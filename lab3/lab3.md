@@ -111,12 +111,12 @@ find / -type d -name .svn 2>/dev/null | xargs echo | xargs rm -r
 ```
 4. Найдите все **файлы** (и только файлы) с расширением `sh` и добавьтем им право на исполнение.
  ```sh
-find /usr/bin -type f -perm /u+s -or -perm /g+s
+find / -type f -name *.sh | xargs chmod +x
 
 ```
 6. Найдите все **файлы** (и только файлы) с расширением `conf` в каталоге `/etc` и подсчитайте их суммарный размер, используя команду du.
 ```sh
-find /usr/bin -type f -perm /u+s -or -perm /g+s
+find /etc -type f -name *.conf | xargs du --total
 
 ```
 
@@ -126,43 +126,43 @@ find /usr/bin -type f -perm /u+s -or -perm /g+s
 
 1. Из файла `/var/log/messages` вывести строки, содержащие ключевое слово `ERROR`, без учёта регистра.
  ```sh
-find /usr/bin -type f -perm /u+s -or -perm /g+s
+grep -i "ERROR" /var/log/messages
 
 ```
 3. Из файла `/var/log/messages` вывести **количество** строк, **не** содержащих ключевое слово `ERROR`, без учёта регистра.
 ```sh
-find /usr/bin -type f -perm /u+s -or -perm /g+s
+grep -ivc "ERROR" /var/log/messages OR grep -iv "ERROR" /var/log/messages | wc -l
 
 ```
 4. Из файла `/var/log/messages` вывести строки, содержащие **только слово `ERROR` целиком**, с учётом регистра.
  ```sh
-find /usr/bin -type f -perm /u+s -or -perm /g+s
+grep -w "ERROR" /var/log/messages
 
 ```
 6. Вывести количество строк из файла `/etc/group`, совпадающих с шаблоном `wheel`.
 ```sh
-find /usr/bin -type f -perm /u+s -or -perm /g+s
+grep -c "wheel" /etc/group
 
 ```
 7. Найти во всех файлах из текущего каталога и вложенных подкаталогов строки, содержащие шаблон `#!bin/bash`.
 ```sh
-find /usr/bin -type f -perm /u+s -or -perm /g+s
+grep -r '#!bin/bash'
 
 ```
 8. Изменить предыдущую команду таким образом, чтобы она выводила дополнительные 10 строк после каждого найденного шаблона.
 ```sh
-find /usr/bin -type f -perm /u+s -or -perm /g+s
+grep -r '#!bin/bash' -A 10
 
 ```
 9. Найти во всех файлах с расширением `sh` из текущего каталога и вложенных подкаталогов строки, содержащие слово `echo` **целиком**. В выводе команды `grep` найденные слова 
 выделите цветом.
 ```sh
-find /usr/bin -type f -perm /u+s -or -perm /g+s
+grep -rw echo --include="*.sh" --color=auto
 
 ```
 11. Измените предыдущую команду таким образом, чтобы команда grep отображала также имя файла и номер строки, в которой было обнаружено совпадение с шаблоном.
 ```sh
-find /usr/bin -type f -perm /u+s -or -perm /g+s
+grep -nrw echo --include="*.sh" --color=auto
 
 ```
 # Отчёт по лабораторной работе
