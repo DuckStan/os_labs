@@ -43,57 +43,57 @@ find ~ -maxdepth 1 -type f -printf '%P %u %g %n %s \n'
 ```
 9. Найдите все пустые **каталоги** в текущем каталоге.
 ```sh
-find -maxdepth 1 -name "*pass*"
+find . -type d -empty
 
 ```
 10. Найдите все пустые **каталоги** в текущем каталоге и удалите их.
 ```sh
-find -maxdepth 1 -name "*pass*"
+find . -type d -empty -delete
 
 ```
 11. Найдите и удалите все пустые **файлы** (и только файлы).
 ```sh
-find -maxdepth 1 -name "*pass*"
+find / -type f -empty -delete
 
 ```
 12. Найдите все **файлы** (и только файлы) в текущем каталоге, на которые есть хотя бы одна жёсткая ссылка.
 ```sh
-find -maxdepth 1 -name "*pass*"
+find . -maxdepth 1 -type f -links +0
 
 ```
 13. Найдите файлы и каталоги в каталоге `/etc`, **не** принадлежащие пользователю `root`.
 ```sh
-find -maxdepth 1 -name "*pass*"
+find /etc -maxdepth 1 '(' -type d -o -type f ')' -not -user root"
 
 ```
 14. Найдите все **файлы** (и только файлы), у которых **нет** расширения `sh`.
 ```sh
-find -maxdepth 1 -name "*pass*"
+find / -type f ! -iname *.sh
 
 ```
 15. Найдите все **файлы** (и только файлы), у которых количество жёстких ссылок более двух.
 ```sh
-find -maxdepth 1 -name "*pass*"
+ find / -type f -links +2
 
 ```
 16. Найдите все **файлы** (и только файлы) в каталоге `/usr/bin`, последний доступ к которым осуществлялся более трёх месяцев назад.
 ```sh
-find -maxdepth 1 -name "*pass*"
+find /usr/bin -type f -atime +90
 
 ```
 17. Найдите все **файлы** (и только файлы) в каталогах `/usr/bin` и `/usr/share`, созданные или изменённые в течении последних 10 дней.
 ```sh
-find -maxdepth 1 -name "*pass*"
+find /usr/bin /usr/share -type f -mtime -10
 
 ```
 18. Найдите и удалите все **файлы** (и только файлы) в каталоге `/tmp`, которые не менялись более двух недель.
 ```sh
-find -maxdepth 1 -name "*pass*"
+find /tmp -type f -ctime +14 -delete
 
 ```
 19. Найдите все **файлы** (и только файлы) в каталоге `/usr/bin` с установленным флагом suid/sgid.
 ```sh
-find -maxdepth 1 -name "*pass*"
+find /usr/bin -type f -perm /u+s -or -perm /g+s
 
 ```
 
