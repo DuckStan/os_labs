@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "XHTML1-s.dtd">
+<!-- saved from url=(0095)https://login.mephi.ru/login?service=https%3A%2F%2Fmail.campus.mephi.ru%2F%3F_action%3Dcaslogin -->
+<html xmlns="http://www.w3.org/TR/1999/REC-html-in-xml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Форма аутентификации</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/captiveportal-cas.css">
+    <link rel="stylesheet" type="text/css" href="/captiveportal-theme.css">
+    <link rel="icon" type="image/png" href="/captiveportal-logo.png">
+    <meta name="theme-color" content="#0065ac">
+  </head>
+
+  <body onload="if (document.getElementById(&#39;username&#39;)) document.getElementById(&#39;username&#39;).focus()">
+    <div id="footer">
+      
+        
+          
+            <a href="tel:84957885699,9999">Техническая поддержка: +7&nbsp;(495)&nbsp;788‑56‑99, доб.&nbsp;9999</a>
+          
+        
+      
+    </div>
+    <div id="center-box">
+      <div id="login-box">
+  <div id="login-form">
+    
+        
+        
+    
+      <img id="logo" src="/captiveportal-logo.png">
+		  
+		          <form name="login_form" method="post" action="https://campusauth.ut.mephi.ru:8003/index.php?zone=campusauth" id="login-form">
+          <div class="inputdiv" title="Имя пользователя (логин). Имя пользователя, для сотрудников, совпадает с именем пользователя корпоративной электронной почты НИЯУМИ (инициалы и фамилия латиницей). Имя пользователя, для студентов и аспирантов, совпадает с именем пользователя корпоративной студенческой электронной почты НИЯУМИ (от одной до трёх букв латиницы и три цифры)">
+            <img src="/captiveportal-user.png"><input type="text" id="auth_user" name="auth_user" size="32" tabindex="1" placeholder="Имя пользователя">
+          </div>
+          <div class="inputdiv" title="Пароль">
+            <img src="/captiveportal-key.png"><input type="password" id="auth_pass" name="auth_pass" size="32" tabindex="2" placeholder="Пароль">
+          </div>
+          <div class="inputdiv">
+            <input type="submit" name="accept" class="login login-submit" value="Войти" tabindex="4" id="login">
+		  </div>
+		
+          
+          
+            
+            
+            
+              <br><a style="font: 26px Verdana; color: black;border:none;background-color:rgb(221,221,221);display:inline-block;padding: 5px 10px 5px 10px;" href="https://home.mephi.ru/students/new?mode=frame">Форма выдачи логина/пароля обучающимся</a>
+			  <p><font size="5" color="black" face="Verdana"> Восстановить пароль:
+			  <br><a style="font: 26px Verdana; color: black;border:none;background-color:rgb(221,221,221);display:inline-block;padding: 5px 10px 5px 10px;" href="https://it.mephi.ru/email">сотрудник</a>
+			  <a style="font: 26px Verdana; color: black;border:none;background-color:rgb(221,221,221);display:inline-block;padding: 5px 10px 5px 10px;" href="https://home.mephi.ru/passwords/forgotten">обучающийся</a>
+            
+          
+        </form>
+      
+    
+  </div>
+  
+
+</body></html>
