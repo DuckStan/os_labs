@@ -1,0 +1,1000 @@
+   49  cat apple
+   50  man cp
+   51  man mv
+   52  mv lion ~/animals
+   53  ls ~/animals
+   54  man mv
+   55  ls
+   56  mv pineaple pineapple
+   57  man wc
+   58  wc -l /etc/passwd
+   59  man ln
+   60  cd 
+   61  ln -s /etc/passwd passwd_link
+   62  ln .bash_history history_hard
+   63  ls -l .bash_history
+   64  ls
+   65  ls -l Видео
+   66  ls -l history_hard
+   67  ls -l fruits
+   68  ls -l Загрузки
+   69  ls -l ЭЗагрузки"
+   70  ls -l "Загрузки"
+   71  ls -l passwd_link
+   72  cat history_hard
+   73  cat passwd_link
+   74  man rm
+   75  rm /fruits/apple
+   76  rm fruits/apple
+   77  ls fruits
+   78  mkdir rmme
+   79  ls
+   80  man rmdir
+   81  rmdir rmme
+   82  ls
+   83  rmdir fruits
+   84  man rmdir
+   85  rm -fr fruits
+   86  ls
+   87  man cat
+   88  cat /etc/passwd /var/log/boot.log
+   89  cp /etc/init.d/ ~
+   90  man cp
+   91  cp -r /etc/init.d/ ~
+   92  rm -fr /etc/init.d
+   93  rm -fr etc/init.d
+   94  ls
+   95  man cut
+   96  cat /etc/passwd
+   97  cut -d: -f1 /etc/passwd
+   98  man sort
+   99  cut -d: -f1 /etc/passwd | sort -n
+  100  man column
+  101  man less
+  102  less
+  103  less /etc/passwd
+  104  cut -d: -f1,3,4 /etc/passwd
+  105  man column
+  106  cut -d: -f1,3,4 /etc/passwd | column -ts:
+  107  man cut
+  108  ct /etc/passwd
+  109  cat /etc/passwd
+  110  cut -d: -f1,3,4 /etc/passwd | column -ts:
+  111  cut -d: -f1,3,4 /etc/passwd | column -ts: | less
+  112  cat /etc/passwd
+  113  cut -d: -f1,3 /etc/passwd | column -ts:
+  114  man grep
+  115  man wc
+  116  cat /etc/passwd
+  117  grep :/bin/bash /etc/passwd | wc -l
+  118  man cut
+  119  grep :/bin/bash /etc/passwd | cut -d: -f1 | sort -n
+  120  man rpm
+  121  rpm -qa
+  122  man rpm
+  123  man sortsudo yum y install openssh-server openssh-clients
+  124  rpm -qa --qf '%{NAME}: %{SIZE}\n'
+  125  man sort
+  126  man cat
+  127  man tr
+  128  man uniq
+  129  man head
+  130  rpm -qa --qf '%{NAME}: %{SIZE}\n'|sort -rn -k2,2 | head -n25
+  131  rpm -qa --qf '%{NAME}: %{SIZE}\n'|sort -rn -k2,2 | head -n25 | wc -l
+  132  man wc
+  133  man rpm
+  134  rpm -ql man-db
+  135  rpm -ql man-d
+  136  rpm -ql man-db
+  137  man xargs
+  138  man du
+  139  rpm -ql man-db | xargs -l du 2> /dev/null | sort -n
+  140  du /var/cache/man
+  141  man top
+  142  top -b -n1 | sort
+  143  man sort
+  144  top -b -n1 | sort -d
+  145  man sort
+  146  top -b -n1 | sort -k
+  147  top -b -n1 | sort -k2,2
+  148  man tail
+  149  top -b -n1
+  150  top -b -n1 | tail -n+8
+  151  man cut
+  152  top -b -n1 | tail -n+8 | cut -c7-
+  153  /var/cache/manman cut
+  154  man cut
+  155  man tr
+  156  man cut
+  157  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f11,5
+  158  man cut
+  159  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t'
+  160  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f11,5
+  161  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f11,5 | less
+  162  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | less
+  163  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f5,11 | less
+  164  man column
+  165  man fold
+  166  man tail
+  167  man top
+  168  man cut
+  169  man cat
+  170  man top
+  171  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | 
+  172  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' 
+  173  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f5,11
+  174  man fold
+  175  man sort
+  176  man top
+  177  top -b -n1
+  178  top -b -n1 f
+  179  top -b -n1 -f
+  180  top -b -n1 f
+  181  top -b
+  182  top -b -n1 F
+  183  man top
+  184  top -b -n1 
+  185  top -b  
+  186  man top
+  187  top -b -n1 SWAP
+  188  top
+  189  top -b  
+  190  man top
+  191  top -b  -u
+  192  top -b -u
+  193  top -b
+  194  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f5,11 | sort -nk1
+  195  su
+  196  trevor47
+  197  su
+  198  cat file
+  199  cd test
+  200  cat file
+  201  su
+  202  cat file
+  203  ls -lR
+  204  history
+  205  ls -lR > lab2_1.txt
+  206  cat lab2_1.txt
+  207  history > history.txt
+  208  cat history.txt
+  209  ls
+  210  mkdir test
+  211  cd test
+  212  touch file
+  213  ls
+  214  ls -l
+  215  man chmod
+  216  chmod 000 file
+  217  ls -l
+  218  echo test > file
+  219  cat file
+  220  chmod 400 file
+  221  ls -ll
+  222  chmod 200 file
+  223  ls -l
+  224  echo test > file
+  225  cat file
+  226  chmod 40 file
+  227  ls -l
+  228  chmod 240 file
+  229  ls -l
+  230  cat file
+  231  chmod 640 file
+  232  ls -l
+  233  cat file
+  234  mkdir dir
+  235  cd dir
+  236  touch new_file
+  237  echo file 2 > new_file
+  238  ls dir
+  239  ls
+  240  chmod 666 dir
+  241  cd ..
+  242  chmod 666 dir
+  243  cd dir
+  244  ls -l dir
+  245  ls -l
+  246  ls dir
+  247  cd dir
+  248  cat dir/new_file
+  249  rm dir/new_file
+  250  man chown
+  251  chown root file
+  252  chown :root file
+  253  man umask
+  254  umask 600
+  255  touch file1
+  256  ls -l
+  257  ls -l file1
+  258  umask 0600
+  259  ls -l file1
+  260  rm file1
+  261  touch file1
+  262  ls -l file1
+  263  rm file1
+  264  ls
+  265  umask 600
+  266  touch file1
+  267  ls -l file1
+  268  rm file1
+  269  umask 066
+  270  touch file1
+  271  ls -l file1
+  272  umask 000
+  273  touch file2
+  274  ls -l file2
+  275  git clone https://github.com/efanov/mephi.wiki.git
+  276  ls
+  277  cd mephi.wiki
+  278  ls
+  279  cd ..
+  280  ls
+  281  man find
+  282  find / pass
+  283  man find
+  284  find / "pass"
+  285  man find
+  286  man xargs
+  287  man find
+  288  find / pass
+  289  find type -d
+  290  find -type d
+  291  find . -type d -empty
+  292  find . -type d -empty -delete
+  293  find . -type d -empty 
+  294  find . -type f -empty 
+  295  find . -type f -empty -delete
+  296  find . -type f -empty
+  297  find . -type f -links 1
+  298  find . -type f -links -1
+  299  find . -type f -links 1-
+  300  find . -maxdepth 1 -type f -links 1
+  301  find . -maxdepth 1 -type f -links 1-
+  302  find . -maxdepth 1 -type f -links -1
+  303  find . -maxdepth 1 -type f -links 0+
+  304  find . -maxdepth 1 -type f -links +0
+  305  ls -l ./.esd_auth
+  306  find . -maxdepth 1 -type f -links +0 | ls -l
+  307  find . -maxdepth 1 -type f -links 1 | ls -l
+  308  find . -maxdepth 1 -type f -links -1 | ls -l
+  309  find . -maxdepth 1 -type f -links 1 > ls -l
+  310  find . -maxdepth 1 -type f -links 1 > ls -al
+  311  find . -maxdepth 1 -type f -links 1 | ls -l &
+  312  find . -maxdepth 1 -type f -links 1 
+  313  ls -l1
+  314  ls -al
+  315  find . -maxdepth 1 -type f -links 1+
+  316  find . -maxdepth 1 -type f -links +1
+  317  find . -maxdepth 1 -type f -links 1<
+  318  find . -maxdepth 1 -type f -links 1>
+  319  find . -maxdepth 1 -type f -links 1
+  320  find . -maxdepth 1 -type f -links +0
+  321  find . -maxdepth 1 -type f -links 0
+  322  find . -maxdepth 1 -type f -links +0
+  323  find /etc -maxdepth 1 -type f,d -links -user root
+  324  find /etc -maxdepth 1 -type fd -links -user root
+  325  find /etc -maxdepth 1 -type f d -links -user root
+  326  find /etc -maxdepth 1 -type f -type d -links -user root
+  327  find /etc -maxdepth 1 -type f -type d-user root
+  328  find /etc -maxdepth 1 -type f -type d -user root
+  329  find /etc -maxdepth 1 -type f -type d !(-user root)
+  330  find /etc -maxdepth 1 -type f -type d -user !(root)
+  331  find /etc -maxdepth 1 -type f -type d -user root
+  332  find /etc -maxdepth 1 -type f -user root
+  333  find /etc -maxdepth 1 -type f -o d -user root
+  334  find /etc -maxdepth 1 (-type f -o -type d) -user root
+  335  find /etc -maxdepth 1 -type f -o -type d -user root
+  336  find /etc -maxdepth 1 -type f -o -type d -user !(root)
+  337  ls -l /etc
+  338  find /etc -maxdepth 1 -type f -o -type d !(-user root)
+  339  find /etc -maxdepth 1 -type f -o -type d -user root
+  340  find /etc -maxdepth 1 -type f -o -type d ! -user root
+  341  ls -l /etc/sudo.conf
+  342  find /etc -maxdepth 1 -type f -o -type d -not -user root
+  343  find /etc -maxdepth 1 -type f, d -not -user root
+  344  find /etc -maxdepth 1 -type [f, d] -not -user root
+  345  find /etc -maxdepth 1 -type [f,d] -not -user root
+  346  find /etc -maxdepth 1 -type "[f,d]" -not -user root
+  347  find /etc -maxdepth 1 -type f -o -type d -not -user root
+  348  ls -l /etc/issue
+  349  find /etc \( -type f -o -type d \) ! -user roo
+  350  find /etc \( -type f -o -type d \) ! -user root
+  351  find /etc -maxdepth 1 \( -type f -o -type d \) ! -user root
+  352  ls -l /etc/tcsd.conf
+  353  find /etc -maxdepth 1 -not -user root
+  354  find /etc -maxdepth 1 -not -user root -type f -o -type d
+  355  find /etc -maxdepth 1 "(find /etc \( -type f -o -type d \) ! -user roo"-not -user root -type f ")" -o -type d
+  356  find /etc '(' -type -d -o -type -f ')' -not -user root
+  357  find /etc '(' -type d -o -type -f ')' -not -user root
+  358  find /etc '(' -type d -o -type f ')' -not -user root
+  359  find /etc -maxdepth 1'(' -type d -o -type f ')' -not -user root
+  360  find /etc -maxdepth 1 '(' -type d -o -type f ')' -not -user root
+  361  find /etc '(' -type d -o -type f ')' -not -user root
+  362  find / -type f ! *.sh
+  363  find / ! *.sh
+  364  find / ! "*.sh"
+  365  find / ! *".sh"
+  366  find /  *".sh"
+  367  find . ! *sh
+  368  find . ! *.sh
+  369  find . *.sh
+  370  find . *sh
+  371  find . ! -iname *.sh
+  372  find .  -iname *.sh
+  373  find . -iname *.sh
+  374  find / -iname *.sh
+  375  find / ! -iname *.sh
+  376  find . -type f ! -iname *.sh
+  377  find . -type f  -iname *.sh
+  378  find / -type f  -iname *.sh
+  379  find / -type f ! -iname *.sh
+  380  find . -type f -link +2
+  381  find . -type f -links +2
+  382  ls -l
+  383  ls -l ./test/dir/new_file
+  384  find . -type f -links +1
+  385  find / -type f -links +2
+  386  ls -l /usr/libexec/git-core/git-remote-ftps
+  387  find /usr/bin -atime 62
+  388  find /usr/bin -atime +62
+  389  ls -l /usr/bin/git-shell
+  390  find /usr/bin -atime +90
+  391  find /usr/bin -type f -atime +90
+  392  find /usr/bin && /usr/share -type f -atime -10
+  393  find /usr/bin -o /usr/share -type f -atime -10
+  394  find /usr/bin | /usr/share -type f -atime -10
+  395  find '(' /usr/bin | /usr/share ')' -type f -atime -10
+  396  find /usr/bin -type f -atime -10 &&  find /usr/share -type f -atime -10
+  397  ls -l /usr/share/git-core/templates/info/exclude
+  398  find /usr/bin -type f -mtime -10 &&  find /usr/share -type f -mtime -10
+  399  find /usr/bin /usr/share -mtime -10
+  400  find /usr/bin /usr/share -type f -mtime -10
+  401  find /tmp -type f -mtime +14
+  402  find /tmp -type f -ctime +14
+  403  find /tmp -type f -ctime +14 -delete
+  404  ls -l /tmp/systemd-private-f4c2dd1175244772bf1f0a637088fdfe-chronyd.service-SAWyY1
+  405  find . -type f -ctime +14 -delete
+  406  find / -type f -ctime +14 -delete
+  407  ls
+  408  man wc
+  409  find / -name *.txt -exec wc -l
+  410  find / -name *.txt -exec (wc -l)
+  411  find / -name *.txt -exec {wc -l}
+  412  find / -name *.txt -exec wc 
+  413  find / -name *.txt -exec wc -l; 
+  414  find / -exec wc -l; -name *.txt -
+  415  find / -name *.txt - | xargs wc -l
+  416  find / -name *.txt| xargs wc -l
+  417  find / -name .svn| xargs ls -l
+  418  find / -name .svn
+  419  find / -name .svn 2> /dev/null
+  420  find / -name .txt 2> /dev/null
+  421  find / -name *.txt 2> /dev/null
+  422  find / -name .svn 2> /dev/null
+  423  find / -type d -name .svn | xargs echo
+  424  find / -type d -name .svn 2>/dev/null | xargs echo
+  425  find / -type d -name .svn 2>/dev/null | xargs -r0 echo
+  426  mkdir .svn
+  427  find / -type d -name .svn 2>/dev/null | xargs echo
+  428  cd .svn
+  429  mkdir .svn
+  430  find / -type d -name .svn 2>/dev/null | xargs echo
+  431  find / -type d -name .svn 2>/dev/null | xargs echo &\n
+  432  find / -name *.sh 
+  433  ls -l /usr/libexec/gedit/gedit-bugreport.sh
+  434  find / -name *.sh | xargs chmod u+x
+  435  find / -name *.sh | xargs chmod +x
+  436  ls -l /dev/sda{,[123]}
+  437  lsblk --list
+  438  cat /proc/devices
+  439  dd if=/dev/zero of=./fs.img bs=1M count=10
+  440  losetup --find --show ./fs.img
+  441  ls\
+  442  losetup --find --show ./fs.img
+  443  loset/fs.img
+  444  ls -l ./fs.img
+  445  losetup --find --show "./fs.img"
+  446  losetup --find --show './fs.img'
+  447  losetup --find --show ./fs.img
+  448  dd if=/dev/zero of=./fs.img bs=1M count=10
+  449  losetup --find --show ./fs.img
+  450  losetup --find --show 
+  451  losetup --find
+  452  losetup --find --show ./fs.img
+  453  losetup --find ./fs.img
+  454  losetup --find --show ./fs.img
+  455  ls
+  456  vim hello.sh
+  457  ls
+  458  touch hello.sh
+  459  vim hello.sh
+  460  ls
+  461  vi hello.sh
+  462  sudo apt-get vim
+  463  sudo apt vim
+  464  sudo install vim
+  465  man vim
+  466  sudo vim hello.sh
+  467  R
+  468  d
+  469  q
+  470  ls
+  471  vim hello.sh
+  472  ls
+  473  man vim
+  474  vim hello.sh
+  475  vim -r hello.sh
+  476  vi -r hello.sh
+  477  vi kek.sh
+  478  vim kek
+  479  vi kek
+  480  vim
+  481  ls
+  482  cd bin
+  483  ls
+  484  cd sbin
+  485  ls
+  486  cd ..
+  487  mkdir bin
+  488  ls
+  489  cd bin
+  490  ls
+  491  whereami
+  492  vim hello.sh
+  493  ls
+  494  cd ..
+  495  hello.sh
+  496  ./hello.sh
+  497  cd bin
+  498  ls
+  499  hello.sh
+  500  ./hello.sh
+  501  bash hello.sh
+  502  chmod +x hello.sh
+  503  ls
+  504  ./hello.sh
+  505  hello.sh
+  506  cd ..
+  507  ls
+  508  hello.sh
+  509  ./hello.sh
+  510  hello.sh
+  511  cd bin
+  512  ls
+  513  ./hello.sh
+  514  hello.sh
+  515  cd ..
+  516  ls
+  517  cd ..
+  518  ls
+  519  cd ..
+  520  ls
+  521  cd home
+  522  ls
+  523  mkdir bin
+  524  ls
+  525  mkdir bin
+  526  ls
+  527  cd nursultan
+  528  ls
+  529  hello.sh
+  530  ./hello.sh
+  531  env
+  532  ls
+  533  c dbin
+  534  ls
+  535  cd bin
+  536  ls
+  537  hello.sh
+  538  hello
+  539  hello.sh
+  540  cd ..
+  541  ls
+  542  cd scripts
+  543  ls
+  544  cd ..
+  545  ls
+  546  cd scripts
+  547  cat README
+  548  git init
+  549  git config --global user.name "Aldabergenov Nursultan"
+  550  git config --global user.email "Aldabergenov Nursultan" aldabergenov14@gmail.com
+  551  git add README
+  552  git commit -m 'Added README' README
+  553  git add README
+  554  git commit -m 'Added README' README
+  555  ls
+  556  vim 1_1.sh
+  557  bash 1_1.sh
+  558  ls
+  559  bash 1_1.sh
+  560  vim 1_1.sh
+  561  bash 1_1.sh
+  562  ls
+  563  cd /tmp/shared
+  564  ls
+  565  ls -l /tmp/shared
+  566  cd ..
+  567  ls
+  568  ls -l shared
+  569  cd home
+  570  ls
+  571  cd ..
+  572  ls
+  573  cd home
+  574  ls
+  575  cd nursultan/scripts
+  576  ;s
+  577  ls
+  578  git add 1_1.sh
+  579  git commit -m 'make /tmp/shared' 1_1.sh
+  580  man git commit
+  581  man mkdir
+  582  ls
+  583  vim 1_2.sh
+  584  bash 1_2.sh
+  585  vim 1_2.sh
+  586  bash 1_2.sh
+  587  cd ..
+  588  ls
+  589  cd scripts
+  590  ;s
+  591  ls
+  592  vim 1_2.sh
+  593  man grep
+  594  man ls
+  595  vim 1_2.sh
+  596  bash 1_2.sh
+  597  vim 1_2.sh
+  598  bash 1_2.sh
+  599  vim 1_2.sh
+  600  bash 1_2.sh
+  601  c d..
+  602  ls
+  603  cd ..
+  604  ls
+  605  vim 1_2.sh
+  606  cd script*
+  607  ls
+  608  vim 1_2.sh
+  609  bash 1_2.sh
+  610  git add 1_2.sh
+  611  git commit -m 'how many txt in home' 1_2.sh
+  612  vim 1_3.sh
+  613  man env
+  614  man sort
+  615  man grep
+  616  man sort
+  617  vim 1_3.sh
+  618  bash 1_3.sh
+  619  ls
+  620  git add 1_3.sh
+  621  git commit -m 'sorted env' 1_3.sh
+  622  vim 1_4.sh
+  623  whoami
+  624  man time
+  625  time
+  626  date
+  627  vim 1_4.sh
+  628  bash 1_4.sh
+  629  vim 1_4.sh
+  630  bash 1_4.sh
+  631  vim 1_4.sh
+  632  cd ..
+  633  ls
+  634  vim TODO
+  635  cd scripts
+  636  ls
+  637  bash 1_4.sh
+  638  c d..
+  639  cd ..
+  640  ls
+  641  cd scripts
+  642  ls
+  643  vim 1_4.sh
+  644  bash 1_4.sh
+  645  vim 1_4.sh
+  646  bash 1_4.sh
+  647  vim 1_4.sh
+  648  bash 1_4.sh
+  649  git add 1_4.sh
+  650  git commit -m "good morning man" 1_4.sh
+  651  man find
+  652  find /usr -size 20M
+  653  -bash-4.2$
+  654  ls /usr
+  655  find /usr
+  656  man find
+  657  find /usr -size 30M
+  658  find /usr -size 20M
+  659  find /usr -size 10M
+  660  find /usr -size 20M
+  661  find /usr -size <20M
+  662  find /usr -size >20M
+  663  find /usr -size +20M
+  664  ls
+  665  vim 1_4.sh
+  666  vim 1_5.sh
+  667  bash 1_5.sh
+  668  git add 1_5.sh
+  669  git commit -m "find +20M files in urs" 1_5.sh
+  670  ls
+  671  man ls
+  672  man find
+  673  man ks
+  674  man ls
+  675  vim 1_6.sh
+  676  bash 1_6.sh
+  677  vim 1_6.sh
+  678  bash 1_6.sh
+  679  vim 1_6.sh
+  680  bash 1_6.sh
+  681  vim 1_6.sh
+  682  bash 1_6.sh
+  683  vim 1_6.sh
+  684  bash 1_6.sh
+  685  vim 1_6.sh
+  686  bash 1_6.sh
+  687  vim 1_6.sh
+  688  bash 1_6.sh
+  689  vim 1_6.sh
+  690  bash 1_6.sh
+  691  vim 1_6.sh
+  692  bash 1_6.sh
+  693  cd ..
+  694  ls -a | wc -l
+  695  cd scripts
+  696  ls
+  697  git add 1_6.sh
+  698  git commit -m "num of files" 1_6.sh
+  699  vim 1_7.sh
+  700  man uptime
+  701  man users
+  702  man cat /etc/passwd
+  703  cat /etc/passwd
+  704  man cat
+  705  man grep
+  706  man column
+  707  man grep
+  708  man w
+  709  man users
+  710  man cut
+  711  cat /etc/passwd | cut -d: -f1
+  712  man cut
+  713  ls
+  714  vim 1_7.sh
+  715  bash 1_7.sh
+  716  git add 1_7.sh
+  717  git commit -m "users date uptime display" 1_7.sh
+  718  vim 1_8.sh
+  719  ps -u nursultan
+  720  ps -u nursultan | wc -l
+  721  ps -u root | wc -l
+  722  vim 1_8.sh
+  723  bash 1_8.sh
+  724  ps -u root | wc -l
+  725  vim 1_8.sh
+  726  bash 1_8.sh
+  727  git add 1_8.sh
+  728  git commit -m "user and root procs" 1_8.sh
+  729  vim 1_9.sh
+  730  man ps
+  731  ps -sort %mem
+  732  ps --sort %mem
+  733  ps -a --sort %mem
+  734  ps --sort %mem
+  735  man ps
+  736  ps axu --sort pmem
+  737  man tail
+  738  ps axu --sort pmem | tail -n 5
+  739  ps axu --sort pmem | tail -n 5 | cut -d -f11
+  740  man cut
+  741  ps axu --sort pmem | tail -n 5 | cut -d -f1
+  742  ps axu --sort pmem | tail -n 5 | cut -f1
+  743  ps axu --sort pmem | tail -n 5 | cut -f11
+  744  ps axu --sort pmem | tail -n 5
+  745  ps axu --sort pmem | cut -d -f11 | tail -n 5
+  746  ps axu --sort pmem | cut-f11 | tail -n 5
+  747  ps axu --sort pmem | cut -f11 | tail -n 5
+  748  ps axu --sort pmem | cut -d  -f11 | tail -n 5
+  749  man cut
+  750  ps axu --sort pmem | cut -f11 | tail -n 5
+  751  ps axu --sort pmem | cut -f10 | tail -n 5
+  752  man tail
+  753  ls
+  754  vim 1_9.sh
+  755  bash 1_9.sh
+  756  git add 1_9.sh
+  757  git commit -m "5 fat procs" 1_9.sh
+  758  man du
+  759  du -a /home/nursultan | sort
+  760  du -a /home/nursultan
+  761  man sort
+  762  du -a /home/nursultan | sort -g
+  763  vim 1_10.sh
+  764  bash 1_10.sh
+  765  git add 1_10.sh
+  766  git commit -m "list file sizes sorted" 1_10.sh
+  767  man grep
+  768  cd ..
+  769  ls
+  770  ls -l
+  771  man ls
+  772  man ls -file-type
+  773  ls -file-type
+  774  man ls 
+  775  ls --file-type
+  776  ls -l --file-type
+  777  man ls
+  778  ls -l -f
+  779  ls -f -l
+  780  ls -F -l
+  781  ls -F 
+  782  man ls
+  783  man grep
+  784  ls -l /home/nursultan | grep ^b
+  785  ls -l /dev | grep ^b
+  786  ls
+  787  cd scripts
+  788  ls -l /dev | grep ^c
+  789  ls
+  790  vim 1_11.sh
+  791  ls -l /dev
+  792  vim 1_11.sh
+  793  ls -l /home/nursultan
+  794  vim 1_11.sh
+  795  bash 1_11.sh
+  796  vim 1_11.sh
+  797  bash 1_11.sh
+  798  vim 1_11.sh
+  799  bash 1_11.sh
+  800  vim 1_11.sh
+  801  git add 1_11.sh
+  802  git commit -m "list file types here" 1_11.sh
+  803  ls
+  804  rm -rf os_labs
+  805  git clone https://github.com/DuckStan/os_labs.git
+  806  ls
+  807  cd os_labs
+  808  ls
+  809  cd lab5
+  810  ls
+  811  cd ..
+  812  ls
+  813  cd ..
+  814  ls
+  815  man ps
+  816  ps
+  817  ps -e
+  818  ps -eF
+  819  ps -ef
+  820  ps -ely
+  821  ps ax
+  822  ps axu
+  823  ps -ejH
+  824  ps axjf
+  825  man ps
+  826  ps axms
+  827  ps -eLf
+  828  ps -eo euser,ruser,suser,fuser,f,comm,label
+  829  ps -U root -u root u
+  830  ps -eo pid,tid,class,rtprio,ni,pri,psr,pcpu,stat,wchan:14,comm
+  831  ps axo stat,euid,ruid,tty,tpgid,sess,pgrp,ppid,pid,pcpu,comm
+  832  ps -Ao pid,tt,user,fname,tmout,f,wchan
+  833  ps -C systemd -o pid=
+  834  ps -C systemd -o pid
+  835  ps -C -o pid
+  836  ps -C systemd -o pid
+  837  man ps
+  838  ps -C syslogd -o pid=
+  839  ps -C systemd -o pid=
+  840  ps -q номер -o comm=
+  841  ps -q bash -o comm=
+  842  ps -q 1 -o comm=
+  843  $ ( while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  844  $ (while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  845  $ (while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done)
+  846  ( while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  847  man jobs
+  848  jobs
+  849  ps 1
+  850  ps j
+  851  ps 1
+  852  ps j
+  853  man ps
+  854  ps j
+  855  man bg
+  856  bg
+  857  jobs
+  858  ps j
+  859  ps 1
+  860  ( while true; do printf "UUU %d " $$ >> ~/test.out; sleep 1; done )
+  861  rm -rf os_labs
+  862  git clone https://github.com/DuckStan/os_labs.git
+  863  ls
+  864  cd os_labs
+  865  ls
+  866  cd lab5
+  867  ls
+  868  cd ..
+  869  ls
+  870  cd ..
+  871  ls
+  872  man ps
+  873  ps
+  874  ps -e
+  875  ps -eF
+  876  ps -ef
+  877  ps -ely
+  878  ps ax
+  879  ps axu
+  880  ps -ejH
+  881  ps axjf
+  882  man ps
+  883  ps axms
+  884  ps -eLf
+  885  ps -eo euser,ruser,suser,fuser,f,comm,label
+  886  ps -U root -u root u
+  887  ps -eo pid,tid,class,rtprio,ni,pri,psr,pcpu,stat,wchan:14,comm
+  888  ps axo stat,euid,ruid,tty,tpgid,sess,pgrp,ppid,pid,pcpu,comm
+  889  ps -Ao pid,tt,user,fname,tmout,f,wchan
+  890  ps -C systemd -o pid=
+  891  ps -C systemd -o pid
+  892  ps -C -o pid
+  893  ps -C systemd -o pid
+  894  man ps
+  895  ps -C syslogd -o pid=
+  896  ps -C systemd -o pid=
+  897  ps -q номер -o comm=
+  898  ps -q bash -o comm=
+  899  ps -q 1 -o comm=
+  900  $ ( while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  901  $ (while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  902  $ (while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done)
+  903  ( while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  904  trap 'echo Finishing...; sleep 2' EXIT
+  905  trap -p
+  906  ls -l /dev/std*
+  907  ls -l /dev/fd/
+  908  /dev/pts42
+  909  /dev/pts/42
+  910  cat /dev/pts/42
+  911  echo hello > /dev/pts/42
+  912  echo hello > /dev/pts/0
+  913  echo hello > /dev/pts/1
+  914  echo hello > /dev/pts/2
+  915  ls /dev/pts
+  916  echo hello > /dev/pts/ptmx
+  917  echo hello > /dev/pts/0
+  918  ls -l /dev
+  919  ls -l /proc/self/fd
+  920  ls -l /proc/self/fd > /tmp/ls.out 2> /tmp/ls.err 0> /tmp/ls.in
+  921  cat /tmp/ls.out
+  922  whoami
+  923  ( cat | head ) > ~/test.out 2> ~/test.err
+  924  ps -l
+  925  exec ps -l
+  926  su user1
+  927  su suer1
+  928  su user1
+  929  ls
+  930  sudo -s root
+  931  sudo -s
+  932  tty
+  933  sudo -s
+  934  login root
+  935  whoami
+  936  login user1
+  937  whoami
+  938  man login
+  939  login
+  940  man login
+  941  sh root
+  942  su
+  943  sudo vim /etc/securetty
+  944  tty
+  945  sudo vim /etc/securetty
+  946  login root
+  947  login user1
+  948  whoami
+  949  login nursultan
+  950  login
+  951  login root
+  952  man login
+  953  su
+  954  ls
+  955  cd os_labs
+  956  ls
+  957  cd lab9
+  958  ls
+  959  man ps
+  960  ps xaf
+  961  man ps
+  962  ls
+  963  systemctl --no-wall emergency
+  964  systemctl set-default graphical.target
+  965  sudo systemctl set-default graphical.target
+  966  reboot
+  967  ls
+  968  history
+  969  cd os_labs
+  970  ls
+  971  cd lab9
+  972  ls
+  973  systemctl poweroff
+  974  systemctl halt
+  975  ls
+  976  cd os_labs
+  977  cd lab9
+  978  systemctl --no-wall poweroff
+  979  ls
+  980  shutdown --poweroff 19:15
+  981  sudo shutdown --poweroff 19:15
+  982  ls
+  983  cd /run
+  984  ls
+  985  ls | nologin
+  986  cd ..
+  987  ls
+  988  cd run
+  989  ls
+  990  cd nologin
+  991  cat nologin
+  992  file nologin
+  993  shutdown -c
+  994  sudo shutdown -c
+  995  shutdown --halt +5
+  996  sudo shutdown --halt +5
+  997  sudo shutdown -c
+  998  ystemctl --no-wall reboot
+  999  systemctl --no-wall reboot
+ 1000  systemctl hibernate
+ 1001  ls
+ 1002  hostnamectl
+ 1003  man hostnamectl
+ 1004  timedatectl
+ 1005  man timedatectl
+ 1006  localectl
+ 1007  loginctl 
+ 1008  loginctl session-status 2
+ 1009  loginctl session-status c1
+ 1010  man loginctl
+ 1011  loginctl show-user nursultan
+ 1012  ls
+ 1013  cd os_labs
+ 1014  ls
+ 1015  cd lab9
+ 1016  ls
+ 1017  vim mephi.service
+ 1018  ls -lZ mephi.service 
+ 1019  journalctl -b
+ 1020  ausearch -m avc -ts recent
+ 1021  su ausearch -m avc -ts recent
+ 1022  sudo ausearch -m avc -ts recent
+ 1023  journalctl -b
+ 1024  vim mephi.service
+ 1025  journalctl -b
+ 1026  vim mephi.service
+ 1027  vim mephi.path
+ 1028  su
+ 1029  sudo restorecon -v mephi.service
+ 1030  systemctl start mephi.service 
+ 1031  ls
+ 1032  cp mephi.service /usr/lib/systemd/system/mephi.service
+ 1033  sudo cp mephi.service /usr/lib/systemd/system/mephi.service
+ 1034  ausearch -m avc -ts recent
+ 1035  sudo ausearch -m avc -ts recent
+ 1036  journalctl -b
+ 1037  systemctl start mephi.service
+ 1038  journalctl -u mephi.service
+ 1039  man journalctl
+ 1040  ls
+ 1041  sudo cp mephi.path /usr/lib/systemd/system/mephi.path
+ 1042  systemctl enable mephi.path
+ 1043  journalctl -u mephi.path
+ 1044  journalctl -u mephi.service
+ 1045  journalctl -u mephi
+ 1046  touch /tmp/mephi.file
+ 1047  ls
+ 1048  history > history.txt
