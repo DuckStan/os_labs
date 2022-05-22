@@ -1,0 +1,4 @@
+[yandex]
+name=yandex-epel
+baseurl=http://mirror.yandex.ru/epel/7/x86_64/
+enabled=1
