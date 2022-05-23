@@ -1,0 +1,1000 @@
+  134  ls
+  135  ./hello.sh
+  136  hello.sh
+  137  cd ..
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd ..
+  142  ls
+  143  cd home
+  144  ls
+  145  mkdir bin
+  146  ls
+  147  mkdir bin
+  148  ls
+  149  cd nursultan
+  150  ls
+  151  hello.sh
+  152  ./hello.sh
+  153  env
+  154  ls
+  155  c dbin
+  156  ls
+  157  cd bin
+  158  ls
+  159  hello.sh
+  160  hello
+  161  hello.sh
+  162  cd ..
+  163  ls
+  164  cd scripts
+  165  ls
+  166  cd ..
+  167  ls
+  168  cd scripts
+  169  cat README
+  170  git init
+  171  git config --global user.name "Aldabergenov Nursultan"
+  172  git config --global user.email "Aldabergenov Nursultan" aldabergenov14@gmail.com
+  173  git add README
+  174  git commit -m 'Added README' README
+  175  git add README
+  176  git commit -m 'Added README' README
+  177  ls
+  178  vim 1_1.sh
+  179  bash 1_1.sh
+  180  ls
+  181  bash 1_1.sh
+  182  vim 1_1.sh
+  183  bash 1_1.sh
+  184  ls
+  185  cd /tmp/shared
+  186  ls
+  187  ls -l /tmp/shared
+  188  cd ..
+  189  ls
+  190  ls -l shared
+  191  cd home
+  192  ls
+  193  cd ..
+  194  ls
+  195  cd home
+  196  ls
+  197  cd nursultan/scripts
+  198  ;s
+  199  ls
+  200  git add 1_1.sh
+  201  git commit -m 'make /tmp/shared' 1_1.sh
+  202  man git commit
+  203  man mkdir
+  204  ls
+  205  vim 1_2.sh
+  206  bash 1_2.sh
+  207  vim 1_2.sh
+  208  bash 1_2.sh
+  209  cd ..
+  210  ls
+  211  cd scripts
+  212  ;s
+  213  ls
+  214  vim 1_2.sh
+  215  man grep
+  216  man ls
+  217  vim 1_2.sh
+  218  bash 1_2.sh
+  219  vim 1_2.sh
+  220  bash 1_2.sh
+  221  vim 1_2.sh
+  222  bash 1_2.sh
+  223  c d..
+  224  ls
+  225  cd ..
+  226  ls
+  227  vim 1_2.sh
+  228  cd script*
+  229  ls
+  230  vim 1_2.sh
+  231  bash 1_2.sh
+  232  git add 1_2.sh
+  233  git commit -m 'how many txt in home' 1_2.sh
+  234  vim 1_3.sh
+  235  man env
+  236  man sort
+  237  man grep
+  238  man sort
+  239  vim 1_3.sh
+  240  bash 1_3.sh
+  241  ls
+  242  git add 1_3.sh
+  243  git commit -m 'sorted env' 1_3.sh
+  244  vim 1_4.sh
+  245  whoami
+  246  man time
+  247  time
+  248  date
+  249  vim 1_4.sh
+  250  bash 1_4.sh
+  251  vim 1_4.sh
+  252  bash 1_4.sh
+  253  vim 1_4.sh
+  254  cd ..
+  255  ls
+  256  vim TODO
+  257  cd scripts
+  258  ls
+  259  bash 1_4.sh
+  260  c d..
+  261  cd ..
+  262  ls
+  263  cd scripts
+  264  ls
+  265  vim 1_4.sh
+  266  bash 1_4.sh
+  267  vim 1_4.sh
+  268  bash 1_4.sh
+  269  vim 1_4.sh
+  270  bash 1_4.sh
+  271  git add 1_4.sh
+  272  git commit -m "good morning man" 1_4.sh
+  273  man find
+  274  find /usr -size 20M
+  275  -bash-4.2$
+  276  ls /usr
+  277  find /usr
+  278  man find
+  279  find /usr -size 30M
+  280  find /usr -size 20M
+  281  find /usr -size 10M
+  282  find /usr -size 20M
+  283  find /usr -size <20M
+  284  find /usr -size >20M
+  285  find /usr -size +20M
+  286  ls
+  287  vim 1_4.sh
+  288  vim 1_5.sh
+  289  bash 1_5.sh
+  290  git add 1_5.sh
+  291  git commit -m "find +20M files in urs" 1_5.sh
+  292  ls
+  293  man ls
+  294  man find
+  295  man ks
+  296  man ls
+  297  vim 1_6.sh
+  298  bash 1_6.sh
+  299  vim 1_6.sh
+  300  bash 1_6.sh
+  301  vim 1_6.sh
+  302  bash 1_6.sh
+  303  vim 1_6.sh
+  304  bash 1_6.sh
+  305  vim 1_6.sh
+  306  bash 1_6.sh
+  307  vim 1_6.sh
+  308  bash 1_6.sh
+  309  vim 1_6.sh
+  310  bash 1_6.sh
+  311  vim 1_6.sh
+  312  bash 1_6.sh
+  313  vim 1_6.sh
+  314  bash 1_6.sh
+  315  cd ..
+  316  ls -a | wc -l
+  317  cd scripts
+  318  ls
+  319  git add 1_6.sh
+  320  git commit -m "num of files" 1_6.sh
+  321  vim 1_7.sh
+  322  man uptime
+  323  man users
+  324  man cat /etc/passwd
+  325  cat /etc/passwd
+  326  man cat
+  327  man grep
+  328  man column
+  329  man grep
+  330  man w
+  331  man users
+  332  man cut
+  333  cat /etc/passwd | cut -d: -f1
+  334  man cut
+  335  ls
+  336  vim 1_7.sh
+  337  bash 1_7.sh
+  338  git add 1_7.sh
+  339  git commit -m "users date uptime display" 1_7.sh
+  340  vim 1_8.sh
+  341  ps -u nursultan
+  342  ps -u nursultan | wc -l
+  343  ps -u root | wc -l
+  344  vim 1_8.sh
+  345  bash 1_8.sh
+  346  ps -u root | wc -l
+  347  vim 1_8.sh
+  348  bash 1_8.sh
+  349  git add 1_8.sh
+  350  git commit -m "user and root procs" 1_8.sh
+  351  vim 1_9.sh
+  352  man ps
+  353  ps -sort %mem
+  354  ps --sort %mem
+  355  ps -a --sort %mem
+  356  ps --sort %mem
+  357  man ps
+  358  ps axu --sort pmem
+  359  man tail
+  360  ps axu --sort pmem | tail -n 5
+  361  ps axu --sort pmem | tail -n 5 | cut -d -f11
+  362  man cut
+  363  ps axu --sort pmem | tail -n 5 | cut -d -f1
+  364  ps axu --sort pmem | tail -n 5 | cut -f1
+  365  ps axu --sort pmem | tail -n 5 | cut -f11
+  366  ps axu --sort pmem | tail -n 5
+  367  ps axu --sort pmem | cut -d -f11 | tail -n 5
+  368  ps axu --sort pmem | cut-f11 | tail -n 5
+  369  ps axu --sort pmem | cut -f11 | tail -n 5
+  370  ps axu --sort pmem | cut -d  -f11 | tail -n 5
+  371  man cut
+  372  ps axu --sort pmem | cut -f11 | tail -n 5
+  373  ps axu --sort pmem | cut -f10 | tail -n 5
+  374  man tail
+  375  ls
+  376  vim 1_9.sh
+  377  bash 1_9.sh
+  378  git add 1_9.sh
+  379  git commit -m "5 fat procs" 1_9.sh
+  380  man du
+  381  du -a /home/nursultan | sort
+  382  du -a /home/nursultan
+  383  man sort
+  384  du -a /home/nursultan | sort -g
+  385  vim 1_10.sh
+  386  bash 1_10.sh
+  387  git add 1_10.sh
+  388  git commit -m "list file sizes sorted" 1_10.sh
+  389  man grep
+  390  cd ..
+  391  ls
+  392  ls -l
+  393  man ls
+  394  man ls -file-type
+  395  ls -file-type
+  396  man ls 
+  397  ls --file-type
+  398  ls -l --file-type
+  399  man ls
+  400  ls -l -f
+  401  ls -f -l
+  402  ls -F -l
+  403  ls -F 
+  404  man ls
+  405  man grep
+  406  ls -l /home/nursultan | grep ^b
+  407  ls -l /dev | grep ^b
+  408  ls
+  409  cd scripts
+  410  ls -l /dev | grep ^c
+  411  ls
+  412  vim 1_11.sh
+  413  ls -l /dev
+  414  vim 1_11.sh
+  415  ls -l /home/nursultan
+  416  vim 1_11.sh
+  417  bash 1_11.sh
+  418  vim 1_11.sh
+  419  bash 1_11.sh
+  420  vim 1_11.sh
+  421  bash 1_11.sh
+  422  vim 1_11.sh
+  423  git add 1_11.sh
+  424  git commit -m "list file types here" 1_11.sh
+  425  ls
+  426  rm -rf os_labs
+  427  git clone https://github.com/DuckStan/os_labs.git
+  428  ls
+  429  cd os_labs
+  430  ls
+  431  cd lab5
+  432  ls
+  433  cd ..
+  434  ls
+  435  cd ..
+  436  ls
+  437  man ps
+  438  ps
+  439  ps -e
+  440  ps -eF
+  441  ps -ef
+  442  ps -ely
+  443  ps ax
+  444  ps axu
+  445  ps -ejH
+  446  ps axjf
+  447  man ps
+  448  ps axms
+  449  ps -eLf
+  450  ps -eo euser,ruser,suser,fuser,f,comm,label
+  451  ps -U root -u root u
+  452  ps -eo pid,tid,class,rtprio,ni,pri,psr,pcpu,stat,wchan:14,comm
+  453  ps axo stat,euid,ruid,tty,tpgid,sess,pgrp,ppid,pid,pcpu,comm
+  454  ps -Ao pid,tt,user,fname,tmout,f,wchan
+  455  ps -C systemd -o pid=
+  456  ps -C systemd -o pid
+  457  ps -C -o pid
+  458  ps -C systemd -o pid
+  459  man ps
+  460  ps -C syslogd -o pid=
+  461  ps -C systemd -o pid=
+  462  ps -q номер -o comm=
+  463  ps -q bash -o comm=
+  464  ps -q 1 -o comm=
+  465  $ ( while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  466  $ (while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  467  $ (while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done)
+  468  ( while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  469  man jobs
+  470  jobs
+  471  ps 1
+  472  ps j
+  473  ps 1
+  474  ps j
+  475  man ps
+  476  ps j
+  477  man bg
+  478  bg
+  479  jobs
+  480  ps j
+  481  ps 1
+  482  ( while true; do printf "UUU %d " $$ >> ~/test.out; sleep 1; done )
+  483  rm -rf os_labs
+  484  git clone https://github.com/DuckStan/os_labs.git
+  485  ls
+  486  cd os_labs
+  487  ls
+  488  cd lab5
+  489  ls
+  490  cd ..
+  491  ls
+  492  cd ..
+  493  ls
+  494  man ps
+  495  ps
+  496  ps -e
+  497  ps -eF
+  498  ps -ef
+  499  ps -ely
+  500  ps ax
+  501  ps axu
+  502  ps -ejH
+  503  ps axjf
+  504  man ps
+  505  ps axms
+  506  ps -eLf
+  507  ps -eo euser,ruser,suser,fuser,f,comm,label
+  508  ps -U root -u root u
+  509  ps -eo pid,tid,class,rtprio,ni,pri,psr,pcpu,stat,wchan:14,comm
+  510  ps axo stat,euid,ruid,tty,tpgid,sess,pgrp,ppid,pid,pcpu,comm
+  511  ps -Ao pid,tt,user,fname,tmout,f,wchan
+  512  ps -C systemd -o pid=
+  513  ps -C systemd -o pid
+  514  ps -C -o pid
+  515  ps -C systemd -o pid
+  516  man ps
+  517  ps -C syslogd -o pid=
+  518  ps -C systemd -o pid=
+  519  ps -q номер -o comm=
+  520  ps -q bash -o comm=
+  521  ps -q 1 -o comm=
+  522  $ ( while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  523  $ (while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  524  $ (while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done)
+  525  ( while true; do printf "AAA %d " $$ >> ~/test.out; sleep 1; done )
+  526  trap 'echo Finishing...; sleep 2' EXIT
+  527  trap -p
+  528  ls -l /dev/std*
+  529  ls -l /dev/fd/
+  530  /dev/pts42
+  531  /dev/pts/42
+  532  cat /dev/pts/42
+  533  echo hello > /dev/pts/42
+  534  echo hello > /dev/pts/0
+  535  echo hello > /dev/pts/1
+  536  echo hello > /dev/pts/2
+  537  ls /dev/pts
+  538  echo hello > /dev/pts/ptmx
+  539  echo hello > /dev/pts/0
+  540  ls -l /dev
+  541  ls -l /proc/self/fd
+  542  ls -l /proc/self/fd > /tmp/ls.out 2> /tmp/ls.err 0> /tmp/ls.in
+  543  cat /tmp/ls.out
+  544  whoami
+  545  ( cat | head ) > ~/test.out 2> ~/test.err
+  546  ps -l
+  547  exec ps -l
+  548  su user1
+  549  su suer1
+  550  su user1
+  551  ls
+  552  sudo -s root
+  553  sudo -s
+  554  tty
+  555  sudo -s
+  556  login root
+  557  whoami
+  558  login user1
+  559  whoami
+  560  man login
+  561  login
+  562  man login
+  563  sh root
+  564  su
+  565  sudo vim /etc/securetty
+  566  tty
+  567  sudo vim /etc/securetty
+  568  login root
+  569  login user1
+  570  whoami
+  571  login nursultan
+  572  login
+  573  login root
+  574  man login
+  575  su
+  576  ls
+  577  cd os_labs
+  578  ls
+  579  cd lab9
+  580  ls
+  581  man ps
+  582  ps xaf
+  583  man ps
+  584  ls
+  585  systemctl --no-wall emergency
+  586  systemctl set-default graphical.target
+  587  sudo systemctl set-default graphical.target
+  588  reboot
+  589  ls
+  590  history
+  591  cd os_labs
+  592  ls
+  593  cd lab9
+  594  ls
+  595  systemctl poweroff
+  596  systemctl halt
+  597  ls
+  598  cd os_labs
+  599  cd lab9
+  600  systemctl --no-wall poweroff
+  601  ls
+  602  shutdown --poweroff 19:15
+  603  sudo shutdown --poweroff 19:15
+  604  ls
+  605  cd /run
+  606  ls
+  607  ls | nologin
+  608  cd ..
+  609  ls
+  610  cd run
+  611  ls
+  612  cd nologin
+  613  cat nologin
+  614  file nologin
+  615  shutdown -c
+  616  sudo shutdown -c
+  617  shutdown --halt +5
+  618  sudo shutdown --halt +5
+  619  sudo shutdown -c
+  620  ystemctl --no-wall reboot
+  621  systemctl --no-wall reboot
+  622  history
+  623  yum repolist
+  624  yum grouplist
+  625  man yum
+  626  man yum | wc -l
+  627  man yum grouplist| wc -l
+  628  yum grouplist | wc -l
+  629  rpm -qa | less
+  630  rpm -qa | wc -l
+  631  yum list installed | less
+  632  yum list installed | wc -l
+  633  rpm -qa | grep gnuplot
+  634  yum search gnuplot
+  635  yum info gnuplot
+  636  sudo yum install gnuplot
+  637  rpm -qi gnuplot
+  638  yum list installed gnuplot
+  639  rpm -ql gnuplot
+  640  ьфт кзь
+  641  man rpm
+  642  rpm -ql gnuplot
+  643  yum deplist gnuplot
+  644  sudo rpm -e gnuplot-common
+  645  man rpm
+  646  sudo yum remove gnuplot-common
+  647  ls
+  648  whereami
+  649  ls -l
+  650  ls 
+  651  ls -al
+  652  pwd
+  653  ls
+  654  vim yandex.repo
+  655  cp yandex.repo /etc/yum.repos.d/yandex.repo
+  656  sudo cp yandex.repo /etc/yum.repos.d/yandex.repo
+  657  man yum
+  658  sudo yum clean all
+  659  sudo yum repolist yandex
+  660  sudo yum install @development-tools rpmdev* rpm-sign
+  661  pwd
+  662  mkdir rpmbuild
+  663  cd
+  664  ls
+  665  cd os_labs/lab10
+  666  pwd
+  667  rpmdev-setuptree
+  668  ls
+  669  man rpmdev-setuptree
+  670  cd rpmbuild
+  671  ls
+  672  pwd
+  673  rpmdev-setuptree
+  674  ls
+  675  mdkir SOURCES
+  676  mkdir SOURCES
+  677  mkdir SPECS
+  678  mkdir BUILD
+  679  mkdir RPMS
+  680  mkdir SRPMS
+  681  cd SOURCES
+  682  pwd
+  683  mkdir b19-565-01-1.0
+  684  cd b19-565-01-1.0
+  685  vim b19-565
+  686  vim b19-565-01
+  687  chmod +x b19-565-01
+  688  ./b19-565-01
+  689  vim b19-565-01
+  690  ./b19-565-01
+  691  vim b19-565-01
+  692  man date
+  693  vim b19-565-01
+  694  ./b19-565-01
+  695  pwd
+  696  tar -cvzf b19-565-01-1.0.tar.gz b19-565-01-1.0
+  697  cd ..
+  698  pwd
+  699  tar -cvzf №группы-№студента-1.0.tar.gz №группы-№студента-1.0
+  700  tar -cvzf b19-565-01-1.0.tar.gz b19-565-01-1.0
+  701  ls
+  702  man tar
+  703  cd ../SPECS
+  704  pwd
+  705  vim b19-565-01.spec
+  706  man rpmbuild
+  707  rpmbuild -ba b19-565-01.spec
+  708  vim b19-565-01.spec
+  709  rpmbuild -ba b19-565-01.spec
+  710  vim b19-565-01.spec
+  711  rpmbuild -ba b19-565-01.spec
+  712  vim b19-565-01.spec
+  713  rpmbuild -ba b19-565-01.spec
+  714  cd ..
+  715  ls
+  716  cd SOURCES
+  717  ls
+  718  rm №группы-№студента-1.0.tar.gz
+  719  ls
+  720  cd ..
+  721  cd SPECS
+  722  ls
+  723  rpmbuild -ba b19-565-01.spec
+  724  vim b19-565-01.spec
+  725  cd ..
+  726  ;s
+  727  ls
+  728  cd SOURCES
+  729  ls
+  730  tar -cvzf b19-565-01-1.0.tar.gz b19-565-01-1.0
+  731  ls
+  732  file b19-565-01-1.0.tar.gz
+  733  cd ..
+  734  ls
+  735  cd SPECS
+  736  ls
+  737  vim b19-565-01.spec
+  738  rpmbuild -ba b19-565-01.spec
+  739  vim b19-565-01.spec
+  740  rpmbuild -ba b19-565-01.spec
+  741  cd
+  742  ls
+  743  rpmdev-setuptree
+  744  ls
+  745  cd rpmbuild
+  746  ls
+  747  cd SOURCES
+  748  ls
+  749  cd ..
+  750  ls
+  751  cd ..
+  752  cd nursultan
+  753  ls
+  754  cd home
+  755  pwd
+  756  cd os_labs
+  757  ls
+  758  cd lab10
+  759  ls
+  760  cd rpmbuild
+  761  ls
+  762  cd ..
+  763  ls
+  764  man cp
+  765  cp -r rpmbuild /home/nursultan/rpmbuild
+  766  ls /home/nursultan/rpmbuild
+  767  cp -r rpmbuild /home/nursultan/
+  768  ls
+  769  ls /home/nursultan/rpmbuild
+  770  cp -r rpmbuild /home/nursultan
+  771  ls /home/nursultan/rpmbuild
+  772  cd /home/nursultan
+  773  ls
+  774  cd rpmbuild
+  775  ls
+  776  cd ..
+  777  ls
+  778  rm rpmbuild
+  779  rm -d rpmbuild
+  780  rm -ed rpmbuild
+  781  rm -fd rpmbuild
+  782  rm -f rpmbuild
+  783  rm -fd rpmbuild
+  784  man rm
+  785  rm -r rpmbuild
+  786  ls
+  787  rpmdev-setuptree
+  788  ls
+  789  cp /home/nursultan/os_labs/rpmbuild .
+  790  cp /home/nursultan/os_labs/lab10/rpmbuild .
+  791  cp -r /home/nursultan/os_labs/lab10/rpmbuild .
+  792  ls
+  793  cd rpmbuild
+  794  ls
+  795  cd SOURCES
+  796  ls
+  797  cd ..
+  798  ls
+  799  cd SPECS
+  800  ls
+  801  rpmbuild -ba b19-565-01.spec
+  802  cd SOURCEs
+  803  cd SOURCES
+  804  ls
+  805  pwd
+  806  cd ..
+  807  cd SOURCEs
+  808  cd SOURCES
+  809  ls
+  810  vim b19-565-01-1.0
+  811  cd b19-565-01-1.0
+  812  ls
+  813  vim b19-565-01
+  814  cd ..
+  815  ls
+  816  tar -cvzf b19-565-01-1.0.tar.gz b19-565-01-1.0
+  817  cd ..
+  818  ls
+  819  cd SPECS
+  820  ls
+  821  rpmbuild -ba b19-565-01.spec
+  822  cd ..
+  823  ls
+  824  cd SRPMS
+  825  ls
+  826  cd ..
+  827  ls
+  828  cd RPMS
+  829  ls
+  830  cd ..
+  831  ls
+  832  cd SOURCEs
+  833  cd SOURCES
+  834  ls
+  835  mkdir c-b19-565-01-1.0
+  836  cd c-b19-565-01-1.0
+  837  ls
+  838  vim c-b19-565-01.c
+  839  cd ..
+  840  ls
+  841  pwd
+  842  tar cvfz c-b19-565-01-1.0.tar.gz c-b19-565-01-1.0
+  843  cd ~/rpmbuild/SPECS
+  844  pwd
+  845  vim c-b19-565-01.spec
+  846  rpmbuild -ba c-b19-565-01.spec
+  847  vim c-b19-565-01.spec
+  848  rpmbuild -ba c-b19-565-01.spec
+  849  vim c-b19-565-01.spec
+  850  rpmbuild -ba c-b19-565-01.spec
+  851  vim c-b19-565-01.spec
+  852  cd ..
+  853  ls
+  854  cd RPMS
+  855  ls
+  856  cd noarch
+  857  ls
+  858  cd ..
+  859  ls
+  860  cd ..
+  861  ls
+  862  cd SPECS
+  863  ls
+  864  cd c-b19-565-01.spec
+  865  vim c-b19-565-01.spec
+  866  rpmbuild -ba c-b19-565-01.spec
+  867  cd ..
+  868  pwd
+  869  man gpg2
+  870  gpg2 --gen-key
+  871  dasdasdsals
+  872  ls
+  873  what
+  874  sudo yum install hevegedsudo yum install heveged
+  875  ls
+  876  cd rpmbuild
+  877  ls
+  878  sudo yum install heveged
+  879  sudo yum install haveged
+  880  sudo systemctl enable haveged
+  881  sudo yum install haveged
+  882  gpg2 --gen-key
+  883  sudo yum instalgpg2 --gen-key
+  884  sudo yum install heveged
+  885  sudo systemctl enable haveged
+  886  sudo systemctl start haveged
+  887  sudo yum install haveged
+  888  man yum
+  889  sudo yum install haveged
+  890  sudo -f yum install haveged
+  891  sudo yum -f install haveged
+  892  sudo yum install haveged
+  893  sudo yum install haveged nogpgcheck
+  894  sudo yum install nogpgcheck haveged
+  895  sudo yum install haveged nogpgcheck
+  896  man yum
+  897  sudo yum --nogpgcheck install haveged nogpgcheck
+  898  sudo systemctl enable haveged
+  899  sudo systemctl start haveged
+  900  gpg2 --export -a 'Nursultan Aldabergenov' > ~/rpmbuild/RPM-GPG-KEY-Aldabergenov-Nursultan
+  901  ls
+  902  cd rpmbuild
+  903  ls
+  904  cat RPM-GPG-KEY-Aldabergenov-Nursultan
+  905  vim ~/.rpmmacros
+  906  rpm --addsign ~/rpmbuild/RPMS/*/*.rpm
+  907  man rpm
+  908  sudo yum install createrepo
+  909  sudo mkdir -p /var/www/html/myrepo
+  910  sudo cp ~/rpmbuild/RPMS/*/*.rpm /var/www/html/myrepo
+  911  sudo cp ~/rpmbuild/RPM-GPG-KEY-Ivanov-Ivan /var/www/html/myrepo
+  912  sudo cp ~/rpmbuild/RPM-GPG-KEY-Aldabergenov-Nursultan /var/www/html/myrepo
+  913  sudo createrepo -v /var/www/html/myrepo
+  914  vim /etc/yum.repos.d/my.repo
+  915  sudo vim /etc/yum.repos.d/my.repo
+  916  sudo yum install -y httpd
+  917  sudo systemctl enable httpd.service
+  918  sudo systemctl start httpd.service
+  919  yum repolist
+  920  sudo yum install c-b19-565-01 b19-565-01
+  921  vim /etc/yum.repos.d/my.repo
+  922  sudo systemctl status httpd.servic
+  923  sudo systemctl status httpd.service
+  924  yum repolist
+  925  sudo yum install createrepo
+  926  vim /etc/yum.repos.d/my.repo
+  927  sudo vim /etc/yum.repos.d/my.repo
+  928  sudo yum install createrepo
+  929  ls /var/www/html
+  930  cd myrepo
+  931  ls
+  932  pwd
+  933  sudo mkdir -p /var/www/html/myrepo
+  934  sudo cp ~/rpmbuild/RPMS/*/*.rpm /var/www/html/myrepo
+  935  sudo cp ~/rpmbuild/RPM-GPG-KEY-Ivanov-Ivan /var/www/html/myrepo
+  936  sudo cp ~/rpmbuild/RPM-GPG-KEY-Aldabergenov-Nursultan /var/www/html/myrepo
+  937  sudo createrepo -v /var/www/html/myrepo
+  938  sudo vim /etc/yum.repos.d/my.repo
+  939  sudo yum install -y httpd
+  940  sudo vim /etc/yum.repos.d/my.repo
+  941  sudo yum install -y httpd
+  942  sudo systemctl enable httpd.service
+  943  sudo systemctl start httpd.service
+  944  yum repolist
+  945  sudo yum install c-b19-565-01 b19-565-01
+  946  sudo vim /etc/yum.repos.d/my.repo
+  947  sudo yum install c-b19-565-01 b19-565-01
+  948  rpm --addsign ~/rpmbuild/RPMS/*/*.rpm
+  949  sudo yum install c-b19-565-01 b19-565-01
+  950  gpg2 --export -a 'Nursultan Aldabergenov' > ~/rpmbuild/RPM-GPG-KEY-Aldabergenov-Nursultan
+  951  man gpg2
+  952  sudo cp ~/rpmbuild/RPM-GPG-KEY-Aldabergenov-Nursultan /var/www/html/myrepo
+  953  sudo yum install c-b19-565-01 b19-565-01
+  954  gpg2 --gen-key
+  955  sudo yum install havegad
+  956  sudo yum install haveged
+  957  gpg2 --gen-key
+  958  ls
+  959  history
+  960  cd ..
+  961  ls
+  962  mkdir lab12
+  963  ls
+  964  cd lab12
+  965  ls
+  966  ldd /bin/ls | grep selinux
+  967  ls -l /etc/selinux/
+  968  ls -l /etc/selinux/targeted/
+  969  id -Z
+  970  ls -Z /etc/passwd /etc/group /etc/shadow
+  971  ls -Z /etc/login.defs /etc/sudoers
+  972  ls -Z /usr/bin/passwd 
+  973  ls -Z /usr/sbin/useradd 
+  974  getfattr -n security.selinux /etc/passwd
+  975  man gefattr
+  976  man getfattr
+  977  ps Zaux
+  978  ls /proc/$$/attr
+  979  ls /proc/$$/attr/current
+  980  ls /proc/$$/attr
+  981  ps Z $(pgrep passwd)
+  982  netstat -tnlpZ
+  983  sudo netstat -tnlpZ
+  984  sestatus 
+  985  getenforce
+  986  cat /sys/fs/selinux/enforc
+  987  cat /sys/fs/selinux/enforce
+  988  cat /etc/selinux/config
+  989  sudo vim /etc/selinux/config
+  990  cat /sys/fs/selinux/enforce
+  991  reboot
+  992  cat /sys/fs/selinux/enforce
+  993  sudo vim /etc/selinux/config
+  994  cat /sys/fs/selinux/enforce
+  995  cat /etc/selinux/config
+  996  getsebool -a | grep httpd
+  997  seinfo 
+  998  sudo seinfo 
+  999  su
+ 1000  reboot
+ 1001  ls
+ 1002  sudo seinfo 
+ 1003  cat /sys/fs/selinux/enforce
+ 1004  sudo seinfo 
+ 1005  su
+ 1006  seinfo
+ 1007  seinfo -cfile -x
+ 1008  seinfo -cfile -x | wc -l
+ 1009  seinfo dir
+ 1010  man seinfo
+ 1011  seinfo -cdir -x | wc -l
+ 1012  seinfo -cdir -x
+ 1013  seinfo -cfilesystem -x
+ 1014  seinfo -csock_file -x
+ 1015  grep 'httpd_.*_t' /etc/selinux/targeted/contexts/files/file_contexts
+ 1016  semanage fcontext -l
+ 1017  sudo semanage fcontext -l
+ 1018  man semanage
+ 1019  ls
+ 1020  cd os_labs
+ 1021  ls
+ 1022  cd lab12
+ 1023  ls
+ 1024  touch empty_file
+ 1025  semanage fcontext empty_file
+ 1026  semanage empty_file
+ 1027  ls -Z empty_file
+ 1028  cp empty_file /home
+ 1029  cp empty_file /home/nursultan
+ 1030  cd /home/nursultan
+ 1031  ls
+ 1032  ls -Z empty_file
+ 1033  sudo cp empty_file /home
+ 1034  cd ..
+ 1035  ls
+ 1036  ls -Z empty_file
+ 1037  mv /home/nursultan/empty_file /home/
+ 1038  sudo mv /home/nursultan/empty_file /home/
+ 1039  lz -Z empty_file
+ 1040  ls -Z empty_file
+ 1041  man mount
+ 1042  chcon -t httpd_sys_content_t  empty_file 
+ 1043  ls -Z empty_file
+ 1044  restorecon
+ 1045  restorecon empty_file
+ 1046  ls -Z empty_file
+ 1047  semanage fcontext empty_file
+ 1048  semanage fcontext httpd_sys_content_t empty_file
+ 1049  semanage fcontext -t httpd_sys_content_t empty_file
+ 1050  semanage fcontext -a httpd_sys_content_t empty_file
+ 1051  semanage fcontext -a -t httpd_sys_content_t empty_file
+ 1052  sudo semanage fcontext -a -t httpd_sys_content_t empty_file
+ 1053  man restorecon
+ 1054  man semanage
+ 1055  restorecon -v empty_file
+ 1056  ls -Z empty_file
+ 1057  cat /etc/selinux/targeted/contexts/files/file_contexts
+ 1058  cat /etc/selinux/targeted/contexts/files/file_contexts | grep empty
+ 1059  cat /etc/selinux/targeted/contexts/files/file_contexts | grep empty_file
+ 1060  cat /etc/selinux/targeted/contexts/files/file_contexts | grep "empty_file"
+ 1061  cat /etc/selinux/targeted/contexts/files | grep "empty_file"
+ 1062  ls /etc/selinux/targeted/contexts/files | grep "empty_file"
+ 1063  ls /etc/selinux/targeted/contexts/file
+ 1064  ls /etc/selinux/targeted/contexts/files
+ 1065  semanage fcontext -a -t samba_share_t empty_file
+ 1066  sudo semanage fcontext -a -t samba_share_t empty_file
+ 1067  ls -Z empty_file
+ 1068  cat /etc/selinux/targeted/contexts/files/file_contexts.local
+ 1069  /sbin/restorecon -v empty_file
+ 1070  ls -Z empty_file
+ 1071* restorecon resetrestorecon reset /etc/file1 context unconfined_u:object_r:etc_t:s0
+ 1072  sudo /sbin/restorecon -v empty_file
+ 1073  ls -Z empty_file
+ 1074  restorecon
+ 1075  restorecon empty_file
+ 1076  ls -Z empty_file
+ 1077  restorecon reset empty_file
+ 1078  man restorecon
+ 1079  restorecon -f empty_file
+ 1080  ls -Z empty_file
+ 1081  cat /etc/selinux/targeted/contexts/files/file_contexts.local
+ 1082  pwd
+ 1083  cd nursultan
+ 1084  ls
+ 1085  ls -Z empty_file
+ 1086  cd os_labs
+ 1087  ls
+ 1088  cd lab12
+ 1089  ls
+ 1090  ls -Z
+ 1091  cd ..
+ 1092  ls
+ 1093  cd ..
+ 1094  ls
+ 1095  cd ..
+ 1096  ls
+ 1097  ls -Z
+ 1098  touch kek
+ 1099  sudo touch kek
+ 1100  ls
+ 1101  ls -Z
+ 1102  /usr/sbin/semanage fcontext -a -t samba_share_t /home/kek
+ 1103  sudo /usr/sbin/semanage fcontext -a -t samba_share_t /home/kek
+ 1104  ls -Z
+ 1105  sbin/restorecon -v /home/kek
+ 1106  restorecon -v /home/kek
+ 1107  sudo restorecon -v /home/kek
+ 1108  ls -Z
+ 1109  sesearch -T -s httpd_t -t var_log_t
+ 1110  sesearch -T -s httpd_t -t tmp_t
+ 1111  sesearch --allow --source passwd_t --target shadow_t --class file
+ 1112  sesearch -A -s passwd_t -t passwd_exec_t -c file
+ 1113  sesearch -A -s unconfined_t -t passwd_exec_t -c file
+ 1114  sesearch -A -s unconfined_t -t passwd_t -c process
+ 1115  sesearch --type_trans -s unconfined_t -t passwd_exec_t
+ 1116  sesearch --type=trans -s unconfined_t -t passwd_exec_t
+ 1117  sesearch --type_trans -s unconfined_t -t passwd_exec_t
+ 1118  sesearch --type trans -s unconfined_t -t passwd_exec_t
+ 1119  man sesearch
+ 1120  sesearch --type -s unconfined_t -t passwd_exec_t
+ 1121  seinfo | grep -E '(dontaudit|allow)'
+ 1122  ausearch -m avc -ts recent
+ 1123  sudo ausearch -m avc -ts recent
+ 1124  sudo ausearch 
+ 1125  sudo ausearch -m avc -ts 
+ 1126  sudo ausearch -m avc
+ 1127  ls
+ 1128  cd nursultan
+ 1129  cd os_labs
+ 1130  ls
+ 1131  cd lab12
+ 1132  ls
+ 1133  history > history_lab12.txt
